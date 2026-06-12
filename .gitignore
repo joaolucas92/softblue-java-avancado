@@ -1,0 +1,14 @@
+# Ignorar metadados do Eclipse/IDE em qualquer subpasta
+**/.metadata/
+**/.settings/
+**/.classpath
+**/.project
+
+# Ignorar arquivos compilados e temporários
+**/bin/
+**/target/
+*.log
+
+# Ignorar caches específicos de WebView que o Eclipse gera
+**/EBWebView/
+**/Crashpad/
